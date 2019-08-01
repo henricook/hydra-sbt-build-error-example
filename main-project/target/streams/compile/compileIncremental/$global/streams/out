@@ -1,0 +1,46 @@
+[0m[[0m[0mdebug[0m] [0m[0m[sbt-hydra] Using overridden compileIncremental task.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[root] Hydra compile task weight set to 2 for root/compile.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/henri/repos/hydra-compile-error/src/main/scala/example/model/package.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/henri/repos/hydra-compile-error/src/main/scala/example/Hello.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(example.model.package, example.Hello)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated package objects: Set(example.model.package)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/henri/repos/hydra-compile-error/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting com.triplequote:hydra-bridge_1_0_213:2.1.9:compile for Scala 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting com.triplequote:hydra-bridge_1_0_213:2.1.9:compile for Scala 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 481f7860 for Hydra Scala compiler version 2.13.0-hydra39[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalling Hydra compiler with arguments  (CompilerInterface):[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/henri/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/henri/repos/hydra-compile-error/target/scala-2.13/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-YrootDirectory[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/henri/repos/hydra-compile-error[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-sourcepath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/henri/repos/hydra-compile-error/src/main/scala-2.13:/home/henri/repos/hydra-compile-error/src/main/scala:/home/henri/repos/hydra-compile-error/src/main/java:/home/henri/repos/hydra-compile-error/target/scala-2.13/src_managed/main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-YhydraStore[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/henri/repos/hydra-compile-error/.hydra/sbt/root/compile[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-YpartitionFile[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/henri/repos/hydra-compile-error/src/main/partition.hydra[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-cpus[0m
+[0m[[0m[0mdebug[0m] [0m[0m	4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-YtimingsFile[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/henri/repos/hydra-compile-error/.hydra/sbt/timings.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-YhydraTag[0m
+[0m[[0m[0mdebug[0m] [0m[0m	root/compile[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/henri/repos/hydra-compile-error/src/main/scala/example/Hello.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/henri/repos/hydra-compile-error/src/main/scala/example/model/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 5.416541321 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

@@ -1,0 +1,4 @@
+Time, Tag, Workers, Files, Compilation Duration (ms), GC Duration (ms)
+2019/08/01 11:58:11,              root/compile,   1,     1,      1408,         0
+2019/08/01 12:01:25,              root/compile,   1,     1,      1328,       154
+2019/08/01 12:02:55,              root/compile,   2,     2,      2106,       273

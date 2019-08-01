@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="hydra-compile-error-build"
+		revision="0.1.0-SNAPSHOT"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="1.0"
+		conf="hydra-scala"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, hydra-compile, hydra-scala, hydra-dashboard-client"
+		date="20190801115649"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.7" status="release" pubdate="20180927093542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/henri/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.0.6"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5277511" time="0" location="/home/henri/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.triplequote" name="scala-compiler">
+			<revision name="2.12.7-hydra39" status="release" pubdate="20190801104056" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://triplequote.com/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3114" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-compiler/ivy-2.12.7-hydra39.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-compiler/2.12.7-hydra39/scala-compiler-2.12.7-hydra39.pom"/>
+				<caller organisation="default" name="hydra-compile-error-build" conf="hydra-scala" rev="2.12.7-hydra39" rev-constraint-default="2.12.7-hydra39" rev-constraint-dynamic="2.12.7-hydra39" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="10360894" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-compiler/jars/scala-compiler-2.12.7-hydra39.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-compiler/2.12.7-hydra39/scala-compiler-2.12.7-hydra39.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.0.6" status="release" pubdate="20161101142105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/henri/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://mavenproxy.stag.i.nakhoda.ai/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.pom"/>
+				<caller organisation="com.triplequote" name="scala-compiler" conf="default, compile, runtime, master" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="2.12.7-hydra39"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="547860" time="0" location="/home/henri/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar">
+						<origin-location is-local="false" location="https://mavenproxy.stag.i.nakhoda.ai/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.triplequote" name="scala-reflect">
+			<revision name="2.12.7-hydra39" status="release" pubdate="20190801104045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://triplequote.com/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7-hydra39/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2857" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-reflect/ivy-2.12.7-hydra39.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-reflect/2.12.7-hydra39/scala-reflect-2.12.7-hydra39.pom"/>
+				<caller organisation="com.triplequote" name="scala-compiler" conf="default, compile, runtime, master" rev="2.12.7-hydra39" rev-constraint-default="2.12.7-hydra39" rev-constraint-dynamic="2.12.7-hydra39" callerrev="2.12.7-hydra39"/>
+				<caller organisation="default" name="hydra-compile-error-build" conf="hydra-scala" rev="2.12.7-hydra39" rev-constraint-default="2.12.7-hydra39" rev-constraint-dynamic="2.12.7-hydra39" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3575790" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-reflect/jars/scala-reflect-2.12.7-hydra39.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-reflect/2.12.7-hydra39/scala-reflect-2.12.7-hydra39.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.triplequote" name="scala-library">
+			<revision name="2.12.7-hydra39" status="release" pubdate="20190801104050" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://triplequote.com/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7-hydra39/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2676" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-library/ivy-2.12.7-hydra39.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-library/2.12.7-hydra39/scala-library-2.12.7-hydra39.pom"/>
+				<caller organisation="com.triplequote" name="scala-reflect" conf="default, compile, runtime, master" rev="2.12.7-hydra39" rev-constraint-default="2.12.7-hydra39" rev-constraint-dynamic="2.12.7-hydra39" callerrev="2.12.7-hydra39"/>
+				<caller organisation="com.triplequote" name="scala-compiler" conf="default, compile, runtime, master" rev="2.12.7-hydra39" rev-constraint-default="2.12.7-hydra39" rev-constraint-dynamic="2.12.7-hydra39" callerrev="2.12.7-hydra39"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5218357" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-library/jars/scala-library-2.12.7-hydra39.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-library/2.12.7-hydra39/scala-library-2.12.7-hydra39.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

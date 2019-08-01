@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="hydra-compile-error-build"
+		revision="0.1.0-SNAPSHOT"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, hydra-compile, hydra-scala, hydra-dashboard-client"
+		date="20190801115649"/>
+	<dependencies>
+		<module organisation="org.scala-sbt" name="global-plugins">
+			<revision name="0.0" status="integration" pubdate="20190801115644" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="default" name="hydra-compile-error-build" conf="compile, runtime-internal, runtime, optional" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.triplequote" name="sbt-hydra">
+			<revision name="2.1.9" status="release" pubdate="20190712170938" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://triplequote.com" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+				<license name="Triplequote License" url="https://triplequote.com/eula"/>
+				<metadata-artifact status="no" details="" size="2181" time="0" location="/home/henri/.ivy2/cache/scala_2.12/sbt_1.0/com.triplequote/sbt-hydra/ivy-2.1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/sbt-plugins-release/com.triplequote/sbt-hydra/scala_2.12/sbt_1.0/2.1.9/ivys/ivy.xml"/>
+				<caller organisation="org.scala-sbt" name="global-plugins" conf="compile" rev="2.1.9" rev-constraint-default="2.1.9" rev-constraint-dynamic="2.1.9" callerrev="0.0" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-hydra" type="jar" ext="jar" status="no" details="" size="5767091" time="0" location="/home/henri/.ivy2/cache/scala_2.12/sbt_1.0/com.triplequote/sbt-hydra/jars/sbt-hydra-2.1.9.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/sbt-plugins-release/com.triplequote/sbt-hydra/scala_2.12/sbt_1.0/2.1.9/jars/sbt-hydra.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

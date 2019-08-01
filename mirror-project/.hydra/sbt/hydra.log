@@ -1,0 +1,18 @@
+2019-08-01 12:03:56.325 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 2 files in 1 roots took 34 ms.
+2019-08-01 12:03:56.330 INFO  c.t.hydra.Hydra - Loaded pickle store with 0 entries.
+2019-08-01 12:03:56.330 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.0-hydra39
+2019-08-01 12:03:56.331 INFO  c.t.hydra.Hydra - Hydra version:       2.1.9
+2019-08-01 12:03:56.331 INFO  c.t.hydra.Hydra - Compiling project:   root/compile
+2019-08-01 12:03:56.338 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 6 ms.
+2019-08-01 12:03:56.338 INFO  c.t.hydra.Hydra - Clean build: true
+2019-08-01 12:03:57.388 INFO  c.t.h.l.ActivatedLicenseText - ActivatedLicenseText.validate took 1036 ms.
+2019-08-01 12:03:57.389 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 365. Maximum cores: 8
+2019-08-01 12:03:57.395 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /home/henri/repos/hydra-compile-error-mirror/.hydra/sbt/root/compile/partition.hydra exist yet. Using plain partition strategy.
+2019-08-01 12:03:57.430 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2019-08-01 12:03:57.430 INFO  c.t.hydra.Hydra - [worker.1]: Starting worker with 1 files.
+2019-08-01 12:03:57.670 INFO  worker.1 - Worker used 0 cached entries.
+2019-08-01 12:03:57.671 INFO  c.t.h.WorkerThread - [worker.1]: 234 ms 	1 sources.
+2019-08-01 12:03:57.715 INFO  worker.0 - Worker used 0 cached entries.
+2019-08-01 12:03:57.715 INFO  c.t.h.WorkerThread - [worker.0]: 278 ms 	1 sources.
+2019-08-01 12:03:57.727 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2019-08-01 12:03:57.728 INFO  c.t.hydra.Hydra - Hydra compiling: 298 ms

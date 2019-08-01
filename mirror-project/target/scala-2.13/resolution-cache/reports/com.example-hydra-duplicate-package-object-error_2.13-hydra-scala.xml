@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="hydra-duplicate-package-object-error_2.13"
+		revision="0.1.0-SNAPSHOT"
+		conf="hydra-scala"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, hydra-compile, hydra-scala, hydra-dashboard-client"
+		date="20190801120354"/>
+	<dependencies>
+		<module organisation="com.triplequote" name="scala-compiler">
+			<revision name="2.13.0-hydra39" status="release" pubdate="20190801115728" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://triplequote.com/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2981" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-compiler/ivy-2.13.0-hydra39.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-compiler/2.13.0-hydra39/scala-compiler-2.13.0-hydra39.pom"/>
+				<caller organisation="com.example" name="hydra-duplicate-package-object-error_2.13" conf="hydra-scala" rev="2.13.0-hydra39" rev-constraint-default="2.13.0-hydra39" rev-constraint-dynamic="2.13.0-hydra39" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="10374616" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-compiler/jars/scala-compiler-2.13.0-hydra39.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-compiler/2.13.0-hydra39/scala-compiler-2.13.0-hydra39.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="2.14.6" status="release" pubdate="20180326101840" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="5183" time="0" location="/home/henri/.ivy2/cache/jline/jline/ivy-2.14.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.pom"/>
+				<caller organisation="com.triplequote" name="scala-compiler" conf="default, compile, runtime, master" rev="2.14.6" rev-constraint-default="2.14.6" rev-constraint-dynamic="2.14.6" callerrev="2.13.0-hydra39"/>
+				<artifacts>
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="268780" time="0" location="/home/henri/.ivy2/cache/jline/jline/jars/jline-2.14.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.triplequote" name="scala-reflect">
+			<revision name="2.13.0-hydra39" status="release" pubdate="20190801115722" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://triplequote.com/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.0-hydra39/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2862" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-reflect/ivy-2.13.0-hydra39.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-reflect/2.13.0-hydra39/scala-reflect-2.13.0-hydra39.pom"/>
+				<caller organisation="com.triplequote" name="scala-compiler" conf="default, compile, runtime, master" rev="2.13.0-hydra39" rev-constraint-default="2.13.0-hydra39" rev-constraint-dynamic="2.13.0-hydra39" callerrev="2.13.0-hydra39"/>
+				<caller organisation="com.example" name="hydra-duplicate-package-object-error_2.13" conf="hydra-scala" rev="2.13.0-hydra39" rev-constraint-default="2.13.0-hydra39" rev-constraint-dynamic="2.13.0-hydra39" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3560614" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-reflect/jars/scala-reflect-2.13.0-hydra39.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-reflect/2.13.0-hydra39/scala-reflect-2.13.0-hydra39.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.triplequote" name="scala-library">
+			<revision name="2.13.0-hydra39" status="release" pubdate="20190801115725" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://triplequote.com/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.0-hydra39/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2681" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-library/ivy-2.13.0-hydra39.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-library/2.13.0-hydra39/scala-library-2.13.0-hydra39.pom"/>
+				<caller organisation="com.triplequote" name="scala-compiler" conf="default, compile, runtime, master" rev="2.13.0-hydra39" rev-constraint-default="2.13.0-hydra39" rev-constraint-dynamic="2.13.0-hydra39" callerrev="2.13.0-hydra39"/>
+				<caller organisation="com.triplequote" name="scala-reflect" conf="default, compile, runtime, master" rev="2.13.0-hydra39" rev-constraint-default="2.13.0-hydra39" rev-constraint-dynamic="2.13.0-hydra39" callerrev="2.13.0-hydra39"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5564537" time="0" location="/home/henri/.ivy2/cache/com.triplequote/scala-library/jars/scala-library-2.13.0-hydra39.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/scala-library/2.13.0-hydra39/scala-library-2.13.0-hydra39.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

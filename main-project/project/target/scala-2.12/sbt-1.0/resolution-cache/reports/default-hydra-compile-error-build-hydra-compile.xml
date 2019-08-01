@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="hydra-compile-error-build"
+		revision="0.1.0-SNAPSHOT"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="1.0"
+		conf="hydra-compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, hydra-compile, hydra-scala, hydra-dashboard-client"
+		date="20190801115649"/>
+	<dependencies>
+		<module organisation="com.triplequote" name="hydra_2.12.7">
+			<revision name="2.1.9" status="release" pubdate="20190801104024" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://triplequote.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Triplequote License" url="https://triplequote.com/eula"/>
+				<metadata-artifact status="no" details="" size="3768" time="0" location="/home/henri/.ivy2/cache/com.triplequote/hydra_2.12.7/ivy-2.1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/hydra_2.12.7/2.1.9/hydra_2.12.7-2.1.9.pom"/>
+				<caller organisation="default" name="hydra-compile-error-build" conf="hydra-compile" rev="2.1.9" rev-constraint-default="2.1.9" rev-constraint-dynamic="2.1.9" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hydra_2.12.7" type="jar" ext="jar" status="no" details="" size="319443" time="0" location="/home/henri/.ivy2/cache/com.triplequote/hydra_2.12.7/jars/hydra_2.12.7-2.1.9.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/hydra_2.12.7/2.1.9/hydra_2.12.7-2.1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.3" status="release" pubdate="20170331202753" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10412" time="0" location="/home/henri/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom"/>
+				<caller organisation="com.triplequote" name="hydra_2.12.7" conf="default, compile, runtime, master" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="2.1.9"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="290339" time="0" location="/home/henri/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316163632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/henri/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://mavenproxy.stag.i.nakhoda.ai/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.2.3"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41203" time="0" location="/home/henri/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar">
+						<origin-location is-local="false" location="https://mavenproxy.stag.i.nakhoda.ai/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.2.3" status="release" pubdate="20170331202715" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="7917" time="0" location="/home/henri/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="compile, runtime" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.2.3"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="471901" time="0" location="/home/henri/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.triplequote" name="dashboard-model_2.12">
+			<revision name="1.1.2" status="release" pubdate="20190801104040" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://triplequote.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Triplequote License" url="https://triplequote.com/eula"/>
+				<metadata-artifact status="no" details="" size="2644" time="0" location="/home/henri/.ivy2/cache/com.triplequote/dashboard-model_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/dashboard-model_2.12/1.1.2/dashboard-model_2.12-1.1.2.pom"/>
+				<caller organisation="com.triplequote" name="hydra_2.12.7" conf="default, compile, runtime, master" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="2.1.9"/>
+				<artifacts>
+					<artifact name="dashboard-model_2.12" type="jar" ext="jar" status="no" details="" size="43712" time="0" location="/home/henri/.ivy2/cache/com.triplequote/dashboard-model_2.12/jars/dashboard-model_2.12-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/dashboard-model_2.12/1.1.2/dashboard-model_2.12-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.triplequote" name="license-checking">
+			<revision name="2.1.9" status="release" pubdate="20190801104029" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://triplequote.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Triplequote License" url="https://triplequote.com/eula"/>
+				<metadata-artifact status="no" details="" size="2779" time="0" location="/home/henri/.ivy2/cache/com.triplequote/license-checking/ivy-2.1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/license-checking/2.1.9/license-checking-2.1.9.pom"/>
+				<caller organisation="com.triplequote" name="hydra_2.12.7" conf="default, compile, runtime, master" rev="2.1.9" rev-constraint-default="2.1.9" rev-constraint-dynamic="2.1.9" callerrev="2.1.9"/>
+				<artifacts>
+					<artifact name="license-checking" type="jar" ext="jar" status="no" details="" size="26118" time="0" location="/home/henri/.ivy2/cache/com.triplequote/license-checking/jars/license-checking-2.1.9.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/libs-release/com/triplequote/license-checking/2.1.9/license-checking-2.1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.license4j" name="license4j-runtime-library">
+			<revision name="4.7.2" status="release" pubdate="20190801090944" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="2409" time="0" location="/home/henri/.ivy2/cache/com.license4j/license4j-runtime-library/ivy-4.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.triplequote.com/artifactory/libs-release/com/license4j/license4j-runtime-library/4.7.2/license4j-runtime-library-4.7.2.pom"/>
+				<caller organisation="com.triplequote" name="license-checking" conf="compile, runtime" rev="4.7.2" rev-constraint-default="4.7.2" rev-constraint-dynamic="4.7.2" callerrev="2.1.9"/>
+				<artifacts>
+					<artifact name="license4j-runtime-library" type="jar" ext="jar" status="no" details="" size="126401" time="0" location="/home/henri/.ivy2/cache/com.license4j/license4j-runtime-library/jars/license4j-runtime-library-4.7.2.jar">
+						<origin-location is-local="false" location="https://repo.triplequote.com/artifactory/libs-release/com/license4j/license4j-runtime-library/4.7.2/license4j-runtime-library-4.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.7" status="release" pubdate="20180927093542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/henri/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
+				<caller organisation="com.triplequote" name="hydra_2.12.7" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="2.1.9"/>
+				<caller organisation="com.triplequote" name="dashboard-model_2.12" conf="compile, runtime" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.1.2"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5277511" time="0" location="/home/henri/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

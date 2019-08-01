@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="org.scala-sbt.temp"
+		module="temp-module-42e96e401171547d94407ff72e6e0d24af27d5fc"
+		revision="2.1.9"
+		status="integration"
+		publication="20190801115650"
+	/>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="com.triplequote" name="hydra-bridge_1_0" rev="2.1.9" conf="compile->default(compile)">
+			<artifact name="hydra-bridge_1_0" type="src" ext="jar" conf="*" e:classifier="sources"/>
+		</dependency>
+	</dependencies>
+</ivy-module>

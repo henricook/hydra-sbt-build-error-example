@@ -1,0 +1,2 @@
+Worker ID, File, Total Time (ms), lateFile?, totalSpans, parser nodes, typer nodes, LoC, LoC/s
+0, Dependencies.scala, 653, false, 30, 22, 29, 4, 6
